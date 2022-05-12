@@ -7,8 +7,8 @@
       <div class="container grid movie-grid">
         <Card v-for="movie in films" :key="movie.id" :element="movie"/>  
       </div> -->
-      <CardGrid title="Film" :items="films" />
-      <CardGrid title="Serie TV" :items="series" />
+      <CardGrid title="Film trovati" :items="films" />
+      <CardGrid title="Serie TV trovate" :items="series" />
     </main>
     
   </div>
